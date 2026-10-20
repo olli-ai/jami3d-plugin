@@ -1,0 +1,45 @@
+# Which op answers which question
+
+Generated for DI 1.12 from JAMI's question map — `read_guide "measuring"` holds the current table, with what each answer gives. Send each op with the tool named; several reads go in one `read`.
+
+- how high is the ground at (x, z): `read` `space.heightAt`
+- the ground of a whole area as a grid: `read` `space.heightfield`
+- what JAMI knows of this ground: `read` `space.terrain`
+- a line's heights and grades: `read` `space.profile`
+- how wide a passage is: `read` `space.corridor`
+- where a body can walk, and how the areas link: `read` `space.regions`
+- the named places of a scan's ground: `read` `space.landmarks`
+- what is over and under a point: `read` `space.rays`
+- can A see B at one instant: `read` `space.lineOfSight`
+- can A see B over a span: `read` `space.sightlines`
+- how close two things come over time: `read` `space.proximity`
+- the free space round a point, a path or a camera: `read` `space.clearance`
+- a part swept through its range: `read` `space.sweep`
+- where is X at t: `read` `entity.facts {ids, atMs}`
+- how X moves over a span: `read` `entity.trajectory`
+- are the feet on the ground; does it float, sink, slide, stall: `read` `check.motion`
+- do the cameras keep it framed, aimed and clear: `read` `check.camera`
+- what the cameras do over a span, sample by sample: `read` `camera.sample`
+- is it seen through the scan, pixel-true: `look` `perceive.track`
+- is my work right: `verify`
+- which kinds of promise there are: `read` `check.kinds`
+- what is wrong, and what did I touch: `read` `problems.list {onlyShown, since: {mine: true}}`
+- what is in the scene at t: `read` `scene.describe`
+- what a model is made of: `read` `model.sheet`
+- a model's sections: `read` `mesh.section`
+- does it match the sheet: `look` `look.matchReference`
+- what the sheet measures: `look` `look.reference`
+- a form at a glance: `read` `form.outline`
+- one region of a form, in full: `read` `form.inspect {entityId, region}`
+- one region of the drawing: `read` `reference.inspect {boardId, view, region, detail}`
+- a navmesh route for a Move: `read` `space.path`
+- a planned route over real ground: `read` `route.plan`
+- where a fixed camera should stand: `read` `camera.findViewpoint`
+- which cuts cover the span: `read` `camera.coverage`
+- a labelled map of the ground: `look` `look.map`
+- a pixel's world point: `look` `perceive.pick`
+- metric depth as data: `look` `perceive.buffers`
+- all sides at one scale: `look` `look.turnaround`
+- how it looks (composition, light): `look` `look.view {quality: "final"}`
+- where was I: `get_project_overview {recap: true}`
+- is this ID still good: `read` `ids.resolve`

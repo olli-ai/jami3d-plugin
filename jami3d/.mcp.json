@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "jami": { "type": "http", "url": "${JAMI_MCP_URL:-https://jami.live/api/design/mcp}" }
+  }
+}

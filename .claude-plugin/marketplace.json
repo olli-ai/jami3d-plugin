@@ -1,0 +1,14 @@
+{
+  "name": "jami3d",
+  "description": "JAMI's plugin for Claude Code: its MCP server and the skills that teach it.",
+  "owner": { "name": "JAMI" },
+  "plugins": [
+    {
+      "name": "jami3d",
+      "source": "./jami3d",
+      "description": "Design 3D scenes in JAMI from Claude Code: JAMI's MCP server, and skills that teach its way of working — measure, then render.",
+      "author": { "name": "JAMI" },
+      "license": "MIT"
+    }
+  ]
+}
