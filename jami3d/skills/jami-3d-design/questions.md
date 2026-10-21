@@ -1,6 +1,6 @@
 # Which op answers which question
 
-Generated for DI 1.12 from JAMI's question map — `read_guide "measuring"` holds the current table, with what each answer gives. Send each op with the tool named; several reads go in one `read`.
+Generated for DI 1.13 from JAMI's question map — `read_guide "measuring"` holds the current table, with what each answer gives. Send each op with the tool named; several reads go in one `read`.
 
 - how high is the ground at (x, z): `read` `space.heightAt`
 - the ground of a whole area as a grid: `read` `space.heightfield`
@@ -32,6 +32,8 @@ Generated for DI 1.12 from JAMI's question map — `read_guide "measuring"` hold
 - a form at a glance: `read` `form.outline`
 - one region of a form, in full: `read` `form.inspect {entityId, region}`
 - one region of the drawing: `read` `reference.inspect {boardId, view, region, detail}`
+- does this region match the drawing: `read` `reference.compare {boardId, region, level}`
+- do the textures match the drawing's colours: `read` `texture.inspect {entityId, include: ["reference", "coverage"]}`
 - a navmesh route for a Move: `read` `space.path`
 - a planned route over real ground: `read` `route.plan`
 - where a fixed camera should stand: `read` `camera.findViewpoint`
