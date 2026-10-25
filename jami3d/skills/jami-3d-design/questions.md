@@ -1,6 +1,6 @@
 # Which op answers which question
 
-Generated for DI 1.13 from JAMI's question map — `read_guide "measuring"` holds the current table, with what each answer gives. Send each op with the tool named; several reads go in one `read`.
+Generated for DI 1.16 from JAMI's question map — `read_guide "measuring"` holds the current table, with what each answer gives. Send each op with the tool named; several reads go in one `read`.
 
 - how high is the ground at (x, z): `read` `space.heightAt`
 - the ground of a whole area as a grid: `read` `space.heightfield`
@@ -16,6 +16,13 @@ Generated for DI 1.13 from JAMI's question map — `read_guide "measuring"` hold
 - the free space round a point, a path or a camera: `read` `space.clearance`
 - a part swept through its range: `read` `space.sweep`
 - where is X at t: `read` `entity.facts {ids, atMs}`
+- where a bone (the left hand) is at t: `read` `pose.sample {ids, bones, times}`
+- how a body is posed at t, in joint degrees: `read` `pose.get {ids, atMs}`
+- how a bone moves over a span: `read` `pose.sample {ids, bones, during}`
+- what a hand or foot touches, when; does it slide: `read` `pose.contacts {ids, during}`
+- is it balanced; where its centre of mass is: `read` `pose.balance {ids, during}`
+- do limbs pass through a body or the scene: `read` `pose.collisions {ids, withIds}`
+- how a motion is timed: keys, holds, spacing: `read` `motion.timing {subject, during}`
 - how X moves over a span: `read` `entity.trajectory`
 - are the feet on the ground; does it float, sink, slide, stall: `read` `check.motion`
 - do the cameras keep it framed, aimed and clear: `read` `check.camera`
@@ -34,6 +41,7 @@ Generated for DI 1.13 from JAMI's question map — `read_guide "measuring"` hold
 - one region of the drawing: `read` `reference.inspect {boardId, view, region, detail}`
 - does this region match the drawing: `read` `reference.compare {boardId, region, level}`
 - do the textures match the drawing's colours: `read` `texture.inspect {entityId, include: ["reference", "coverage"]}`
+- does the exported file play the same in Blender: `edit` `export.validate {target, format, options}`
 - a navmesh route for a Move: `read` `space.path`
 - a planned route over real ground: `read` `route.plan`
 - where a fixed camera should stand: `read` `camera.findViewpoint`
@@ -42,6 +50,8 @@ Generated for DI 1.13 from JAMI's question map — `read_guide "measuring"` hold
 - a pixel's world point: `look` `perceive.pick`
 - metric depth as data: `look` `perceive.buffers`
 - all sides at one scale: `look` `look.turnaround`
+- a pose as a picture, joints marked with angles: `look` `look.pose {ids, atMs, bones}`
+- a motion at several instants, with trails: `look` `look.motionSheet {ids, keys: true, trails}`
 - how it looks (composition, light): `look` `look.view {quality: "final"}`
 - where was I: `get_project_overview {recap: true}`
 - is this ID still good: `read` `ids.resolve`

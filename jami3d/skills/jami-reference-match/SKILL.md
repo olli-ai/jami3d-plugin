@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Match a model to its reference sh
 
 # JAMI: Match a model to its reference sheet
 
-Generated for DI 1.13 — read the guide for the current text: `read_guide "playbook-reference-match"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.16 — read the guide for the current text: `read_guide "playbook-reference-match"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Match a model to its reference sheet
 

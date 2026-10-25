@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Model from a reference, coarse to
 
 # JAMI: Model from a reference, coarse to fine
 
-Generated for DI 1.13 — read the guide for the current text: `read_guide "playbook-modelling"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.16 — read the guide for the current text: `read_guide "playbook-modelling"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Model from a reference, coarse to fine
 
@@ -23,7 +23,7 @@ Gather: the board, views named, height in metres (ask the person); the scene.
    `read {"calls":[{"op":"form.fit","input":{"entityId":"prop-k7f3","boardId":"board-k7f3","partIds":["part-k7f3"],"level":0}}]}`
    `edit {"calls":[{"op":"form.parts.set","input":{"entityId":"prop-k7f3","planId":"staged-4f1c0a9e2b7d3c58"}}]}`
 4. Level 1: shapes from silhouettes; to replace a block, move its children to the new part (keep: "world"), remove it.
-   `read {"calls":[{"op":"form.fromSilhouette","input":{"boardId":"board-k7f3","entityId":"prop-k7f3","name":"Body","kind":"loft","region":{"part":"part-k7f3","children":false}}}]}`
+   `read {"calls":[{"op":"form.fromSilhouette","input":{"boardId":"board-k7f3","entityId":"prop-k7f3","name":"Body","kind":"loft","region":{"part":"part-k7f3","children":false,"marginFraction":0}}}]}`
    `edit {"calls":[{"op":"form.parts.set","input":{"entityId":"prop-k7f3","move":[{"part":"part-m2q8","parentId":"part-r5t1","keep":"world"}],"remove":[{"part":"part-k7f3"}]}}]}`
 5. Level 2: a part's details, placed by reference.locate {onto: {part}}.
    `read {"calls":[{"op":"form.suggest","input":{"boardId":"board-k7f3","entityId":"prop-k7f3","level":1,"region":{"part":"part-m2q8"}}}]}`

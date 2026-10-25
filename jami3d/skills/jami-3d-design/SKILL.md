@@ -5,7 +5,7 @@ description: "Designing 3D scenes in JAMI through its MCP server: measure, then 
 
 # Designing in JAMI: measure, then render
 
-Generated for DI 1.13 — read the guide for the current text: `read_guide "measuring"`, `read_guide "conventions"`, `read_guide "connected-apps"`.
+Generated for DI 1.16 — read the guide for the current text: `read_guide "measuring"`, `read_guide "conventions"`, `read_guide "connected-apps"`.
 
 ## Orient before you change anything
 
