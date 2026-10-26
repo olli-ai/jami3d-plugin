@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Model from a reference, coarse to
 
 # JAMI: Model from a reference, coarse to fine
 
-Generated for DI 1.16 — read the guide for the current text: `read_guide "playbook-modelling"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.17 — read the guide for the current text: `read_guide "playbook-modelling"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Model from a reference, coarse to fine
 

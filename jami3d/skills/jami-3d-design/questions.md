@@ -1,6 +1,6 @@
 # Which op answers which question
 
-Generated for DI 1.16 from JAMI's question map — `read_guide "measuring"` holds the current table, with what each answer gives. Send each op with the tool named; several reads go in one `read`.
+Generated for DI 1.17 from JAMI's question map — `read_guide "measuring"` holds the current table, with what each answer gives. Send each op with the tool named; several reads go in one `read`.
 
 - how high is the ground at (x, z): `read` `space.heightAt`
 - the ground of a whole area as a grid: `read` `space.heightfield`
@@ -23,6 +23,8 @@ Generated for DI 1.16 from JAMI's question map — `read_guide "measuring"` hold
 - is it balanced; where its centre of mass is: `read` `pose.balance {ids, during}`
 - do limbs pass through a body or the scene: `read` `pose.collisions {ids, withIds}`
 - how a motion is timed: keys, holds, spacing: `read` `motion.timing {subject, during}`
+- what a model reads as: a creature's roles, legs, gaits: `read` `cast.rig.suggest {assetId}`
+- how a creature is posed at t, by role: `read` `pose.get {ids, atMs}`
 - how X moves over a span: `read` `entity.trajectory`
 - are the feet on the ground; does it float, sink, slide, stall: `read` `check.motion`
 - do the cameras keep it framed, aimed and clear: `read` `check.camera`

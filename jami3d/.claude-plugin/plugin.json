@@ -1,6 +1,6 @@
 {
   "name": "jami3d",
-  "version": "1.16.0",
+  "version": "1.17.0",
   "description": "Design 3D scenes in JAMI from Claude Code: JAMI's MCP server, and skills that teach its way of working — measure, then render.",
   "author": { "name": "JAMI" },
   "license": "MIT"

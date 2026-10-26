@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Walk a loop over real ground. A f
 
 # JAMI: Walk a loop over real ground; A figure of props that walks
 
-Generated for DI 1.16 — read the guide for the current text: `read_guide "playbook-terrain-walk"`, `read_guide "playbook-prop-rig-walk"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.17 — read the guide for the current text: `read_guide "playbook-terrain-walk"`, `read_guide "playbook-prop-rig-walk"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Walk a loop over real ground
 
@@ -60,5 +60,6 @@ Pitfalls:
 - An open path eases in and out (rampMs 400) under a gait of one pace: bind it with rampMs 0.
 - A leg beside the body, not under it, is refused: the body dips and carries the legs.
 - Sides are the figure's own: its left is +X when it faces +Z.
+- A model with skinned bones of its own walks by them: rig {kind: "bones"}.
 
 The current text: read_guide "playbook-prop-rig-walk".
