@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Verify, then report. Use when: Be
 
 # JAMI: Verify, then report
 
-Generated for DI 1.17 — read the guide for the current text: `read_guide "measuring"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.18 — read the guide for the current text: `read_guide "measuring"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Verify, then report
 

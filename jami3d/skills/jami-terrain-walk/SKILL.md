@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Walk a loop over real ground. A f
 
 # JAMI: Walk a loop over real ground; A figure of props that walks
 
-Generated for DI 1.17 — read the guide for the current text: `read_guide "playbook-terrain-walk"`, `read_guide "playbook-prop-rig-walk"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.18 — read the guide for the current text: `read_guide "playbook-terrain-walk"`, `read_guide "playbook-prop-rig-walk"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Walk a loop over real ground
 
