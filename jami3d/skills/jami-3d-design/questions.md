@@ -45,7 +45,7 @@ Generated for DI 1.18 from JAMI's question map — `read_guide "measuring"` hold
 - one region of the drawing: `read` `reference.inspect {boardId, view, region, detail}`
 - does this region match the drawing: `read` `reference.compare {boardId, region, level}`
 - do the textures match the drawing's colours: `read` `texture.inspect {entityId, include: ["reference", "coverage"]}`
-- does the exported file play the same in Blender: `edit` `export.validate {target, format, options}`
+- does the exported file play the same in Blender: `edit` `export.validate {exportId}`
 - a navmesh route for a Move: `read` `space.path`
 - a planned route over real ground: `read` `route.plan`
 - where a fixed camera should stand: `read` `camera.findViewpoint`
