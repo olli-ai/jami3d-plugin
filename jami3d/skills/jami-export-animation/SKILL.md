@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Export an animation. Use when: A 
 
 # JAMI: Export an animation
 
-Generated for DI 1.18 — read the guide for the current text: `read_guide "motion-export"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.19 — read the guide for the current text: `read_guide "motion-export"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Export an animation
 

@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Walk a creature to a mark, and gi
 
 # JAMI: Walk a creature to a mark, and give it a voice
 
-Generated for DI 1.18 — read the guide for the current text: `read_guide "creatures"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.19 — read the guide for the current text: `read_guide "creatures"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Walk a creature to a mark, and give it a voice
 

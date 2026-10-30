@@ -2,7 +2,7 @@
 
 Design 3D scenes in JAMI from Claude Code: JAMI's MCP server, and skills that teach its way of working — measure, then render.
 
-Generated from JAMI's guides and conventions for Design Interface 1.18.0. Do not edit
+Generated from JAMI's guides and conventions for Design Interface 1.19.0. Do not edit
 these files: they are built from JAMI's sources, and the next release builds them again.
 
 ## What it adds

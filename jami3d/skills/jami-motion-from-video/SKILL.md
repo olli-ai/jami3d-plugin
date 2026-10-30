@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Recreate a person's motion from a
 
 # JAMI: Recreate a person's motion from a video
 
-Generated for DI 1.18 — read the guide for the current text: `read_guide "video-motion"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.19 — read the guide for the current text: `read_guide "video-motion"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Recreate a person's motion from a video
 
