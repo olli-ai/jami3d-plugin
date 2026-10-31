@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Cameras that follow a walk. Use w
 
 # JAMI: Cameras that follow a walk
 
-Generated for DI 1.19 — read the guide for the current text: `read_guide "playbook-follow-camera"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.20 — read the guide for the current text: `read_guide "playbook-follow-camera"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Cameras that follow a walk
 

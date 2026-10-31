@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Animate a character, pose by pose
 
 # JAMI: Animate a character, pose by pose
 
-Generated for DI 1.19 — read the guide for the current text: `read_guide "posing"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.20 — read the guide for the current text: `read_guide "posing"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Animate a character, pose by pose
 
