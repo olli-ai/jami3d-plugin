@@ -1,6 +1,6 @@
 # Which op answers which question
 
-Generated for DI 1.21 from JAMI's question map — `read_guide "measuring"` holds the current table, with what each answer gives. Send each op with the tool named; several reads go in one `read`.
+Generated for DI 1.22 from JAMI's question map — `read_guide "measuring"` holds the current table, with what each answer gives. Send each op with the tool named; several reads go in one `read`.
 
 - how high is the ground at (x, z): `read` `space.heightAt`
 - the ground of a whole area as a grid: `read` `space.heightfield`
@@ -46,6 +46,8 @@ Generated for DI 1.21 from JAMI's question map — `read_guide "measuring"` hold
 - does this region match the drawing: `read` `reference.compare {boardId, region, level}`
 - do the textures match the drawing's colours: `read` `texture.inspect {entityId, include: ["reference", "coverage"]}`
 - does the exported file play the same in Blender: `edit` `export.validate {exportId}`
+- how far a model is from its 3D truth: `read` `mesh.compare {a, b}`
+- which numbers fit a program to its truth: `read` `program.fit {entityId, params, against}`
 - a navmesh route for a Move: `read` `space.path`
 - a planned route over real ground: `read` `route.plan`
 - where a fixed camera should stand: `read` `camera.findViewpoint`
