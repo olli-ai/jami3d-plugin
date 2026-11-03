@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Build a model from an image. Use 
 
 # JAMI: Build a model from an image
 
-Generated for DI 1.22 — read the guide for the current text: `read_guide "generated-models"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.23 — read the guide for the current text: `read_guide "generated-models"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Build a model from an image
 
