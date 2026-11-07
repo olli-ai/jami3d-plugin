@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Lay out a world from one photo. U
 
 # JAMI: Lay out a world from one photo
 
-Generated for DI 1.23 — read the guide for the current text: `read_guide "worlds"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.24 — read the guide for the current text: `read_guide "worlds"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Lay out a world from one photo
 

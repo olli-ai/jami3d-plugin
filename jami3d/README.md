@@ -2,7 +2,7 @@
 
 Design 3D scenes in JAMI from Claude Code: JAMI's MCP server, and skills that teach its way of working — measure, then render.
 
-Generated from JAMI's guides and conventions for Design Interface 1.23.0. Do not edit
+Generated from JAMI's guides and conventions for Design Interface 1.24.0. Do not edit
 these files: they are built from JAMI's sources, and the next release builds them again.
 
 ## What it adds
@@ -26,6 +26,7 @@ these files: they are built from JAMI's sources, and the next release builds the
   - `jami-export-game-package`: Export a game package
   - `jami-make-living-scene`: Make a living scene
   - `jami-world-from-image`: Lay out a world from one photo
+  - `jami-interactive-scene`: Make motion a viewer changes
 
 ## Using it
 

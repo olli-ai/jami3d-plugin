@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Export a game package. Use when: 
 
 # JAMI: Export a game package
 
-Generated for DI 1.23 — read the guide for the current text: `read_guide "export"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.24 — read the guide for the current text: `read_guide "export"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Export a game package
 

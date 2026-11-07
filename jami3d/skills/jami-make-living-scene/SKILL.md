@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Make a living scene. Use when: Gr
 
 # JAMI: Make a living scene
 
-Generated for DI 1.23 — read the guide for the current text: `read_guide "playbook-living-scene"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.24 — read the guide for the current text: `read_guide "playbook-living-scene"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Make a living scene
 
