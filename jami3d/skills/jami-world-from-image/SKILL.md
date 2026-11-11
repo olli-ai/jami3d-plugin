@@ -22,18 +22,18 @@ Gather: the photo, its size in pixels; a height you know in it, or the camera's.
 4. Build the plan in one step: placeholders, a board and build each, the photo's camera.
    `edit {"calls":[{"op":"world.build","input":{"planId":"staged-0fedcba987654321"}}]}`
 5. Send next's terrain (heightfield.generate bakes it), scatter and presets in order, then world-finish's finish; LAST, each model.generate alone in its edit with confirm: true: STOP until approved.
-6. Drive each build by build-playbook's loop (world-finish names it), as deep as the budget allows: its route's work keeping its ID (program.nodes.set; model.place replaceId), look.build (via look, through the photo's camera).
+6. Then world-finish's loop to its stop rule, using the calls you have: every side first (look.turntable round the ground), then each build in place, its ID kept (program.nodes.set; model.place replaceId), look.build, build.review.
    `edit {"calls":[{"op":"program.nodes.set","input":{"entityId":"prop-k7f3","set":[{"node":{"name":"Placeholder"},"sizeM":[2.4,2.6,1.8]}]}}]}`
 
 Verify "The kiosk shows through the photo's camera" in one call:
 `verify {"sceneId":"scene-1000","inline":[{"name":"The kiosk shows through the photo's camera","check":{"kind":"visibleInShot","subject":"prop-k7f3","cameraId":"cam-k7f3","atMs":0}}]}`
 
-Look: look.view through the photo's camera, beside the photo.
+Look: look.turntable round the ground, then the photo's camera.
 
 Pitfalls:
 
 - Mark where each meets the ground: a box alone guesses depth.
-- Done: each build done, or ended improved by end: true (say so).
+- Done: world-finish's stop rule (say what misses it).
 - A generated object's crop leaves only once approved.
 
 The current text: read_guide "worlds".
