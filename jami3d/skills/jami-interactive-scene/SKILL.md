@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Make motion a viewer changes. Use
 
 # JAMI: Make motion a viewer changes
 
-Generated for DI 1.24 — read the guide for the current text: `read_guide "reactive-motion"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.25 — read the guide for the current text: `read_guide "reactive-motion"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Make motion a viewer changes
 
