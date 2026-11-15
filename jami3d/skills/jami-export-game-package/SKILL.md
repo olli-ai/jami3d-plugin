@@ -5,7 +5,7 @@ description: "In JAMI, through its MCP server: Export a game package. Use when: 
 
 # JAMI: Export a game package
 
-Generated for DI 1.25 — read the guide for the current text: `read_guide "export"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.28 — read the guide for the current text: `read_guide "export"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Export a game package
 
@@ -28,7 +28,7 @@ Look: None: the preview's numbers and the check's verdict say what no picture do
 
 Pitfalls:
 
-- Own content only: library, template and platform files are refused, and anything made of one.
+- Own content, and Asset Library files under CC0 or CC BY (with their credits); JAMI-standard library files, template and platform files are refused, and anything made of one.
 - A member removed or changed makes a major version: games that used it break.
 - One package is written at a time: refused as busy, read export.status first.
 

@@ -5,13 +5,13 @@ description: "In JAMI, through its MCP server: Match a model to its reference sh
 
 # JAMI: Match a model to its reference sheet
 
-Generated for DI 1.25 — read the guide for the current text: `read_guide "playbook-reference-match"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
+Generated for DI 1.28 — read the guide for the current text: `read_guide "playbook-reference-match"`. The workflow, the questions and the conventions are in the `jami-3d-design` skill.
 
 ## Match a model to its reference sheet
 
 A model must match a reference drawing, a turnaround or a character sheet, view by view.
 
-Gather: the reference image, an asset of the library; the model: one form; which sides the sheet draws, and the figure's height in metres.
+Gather: the reference image, one of the project's files; the model: one form; which sides the sheet draws, and the figure's height in metres.
 
 1. Measure the sheet: its figures' boxes, where the outlines turn, the widths band by band.
    `look {"op":"look.reference","input":{"assetId":"image-k7f3"}}`
